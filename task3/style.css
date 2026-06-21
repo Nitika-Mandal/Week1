@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+
+.navtopbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 15px;
+  
+}
+
+.navtopbar img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+.navtopbar span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.lock-icon {
+  width: 10px;
+  height: 10px;
+}
+
+
+.profile-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+}
+
+
+.data {
+  display: flex;
+  gap: 20px;
+}
+
+
+.bio {
+  padding: 0 15px;
+  margin-bottom: 15px;
+}
+
+.bio img {
+  width: 15px;
+  height: 15px;
+}
+
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  padding: 0 15px 20px;
+}
+
+.buttons button {
+  padding: 8px;
+  background-color: #dcdcdc;
+  border-radius: 5px;
+  font-size: 15px;
+ 
+}
+
+.buttons img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+
+.bottomnavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #fff;
+}
+
+.bottomnavbar img {
+  width: 45px;
+  height: 45px;
+ 
+}
+
+.nav-pic {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  
+}
